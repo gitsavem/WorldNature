@@ -1,0 +1,39 @@
+@charset "UTF-8";
+:root{
+    --Cor1: #00ff84;
+    --Cor2: #11be50;
+    --Cor3: #268035;
+    --Cor4: #1c4b1b;
+    --Cor5: #e3f9ff;
+    --Cor6: #090011;
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--Cor2);
+    color: var(--Cor5);
+} header p{
+    padding-left: 60px; padding-right: 60px;
+    text-align: justify;
+} header h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+} header div#Sicon{
+    text-align: left;
+} header p > div{
+    text-align: right;
+}
+main{
+    padding: 20px;
+} main h1{
+    font-size: 2.5em;
+}
+
+i{
+    cursor: pointer;
+}
